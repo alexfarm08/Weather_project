@@ -1,14 +1,14 @@
 import { useState } from 'react'
-import Navbar from './componets/Navbar.jsx';
+import HomePage from "./pages/Home.jsx";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [search, setSearch] = useState("");
 
   return (
     <>
-      <Navbar/>
+      <HomePage onSearch={setSearch} search={search}/>
     </>
-  )
+  );
 }
 
 export default App
