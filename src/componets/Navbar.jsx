@@ -8,14 +8,14 @@ function Navbar({onSearch}) {
                 <h1>Weather Project</h1>
             </div>
             <div>
-                <SearchInput handleSearch={onSearch}/>
+                <SearchInput onSearch={onSearch}/>
             </div>
             <div className="navButtons">
-                <Button text="Home"/>
-                <Button text="About"/>
+                <Button text="Home" to='/' />
+                <Button text="About" to='/about' />
             </div>
         </div>
-    )
+    );
 }
 
 export default Navbar; 

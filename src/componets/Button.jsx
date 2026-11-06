@@ -1,6 +1,11 @@
-function Button({text}) {
+import { useNavigate } from 'react-router-dom';
+
+function Button({text,to}) {
+
+    const navigate = useNavigate();
+
     return (
-        <button>{text}</button>
+        <button onClick={() => navigate(to)}>{text}</button>
     )
 }
 

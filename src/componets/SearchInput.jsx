@@ -5,7 +5,8 @@ function SearchInput({onSearch}) {
 
     function handleSubmit(e) {
         e.preventDefault();
-        onSearch(value);
+        if (!value.trim()) return;
+        onSearch(value.trim());
     }
 
     return (

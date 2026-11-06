@@ -1,4 +1,4 @@
-import NavBar from '../componets/NavBar.jsx';
+import NavBar from '../componets/Navbar.jsx';
 import WeatherBody from "../componets/WeatherBody.jsx";
 
 function Weather({onSearch,search}) {
@@ -7,3 +7,5 @@ function Weather({onSearch,search}) {
         <WeatherBody />
     );
 }
+
+export default Weather;
