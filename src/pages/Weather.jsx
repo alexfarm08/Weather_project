@@ -3,8 +3,10 @@ import WeatherBody from "../componets/WeatherBody.jsx";
 
 function Weather({onSearch,search}) {
     return (
-        <NavBar onSearch={onSearch}/>
-        <WeatherBody />
+        <>
+            <NavBar onSearch={onSearch}/>
+            <WeatherBody />
+        </>
     );
 }
 

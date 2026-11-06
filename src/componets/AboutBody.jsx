@@ -1,7 +1,8 @@
+import './AboutBody.css';
 
 function AboutBody() {
     return(
-        <section>
+        <section className="aboutBody">
             <h2>Why Project Weather?</h2>
             <div className="about-content">
                 <p>For skiers, snowboarders, and anyone who chases winter, the forecast decides everything: which mountain to drive to, which day to take off work, and whether to pack the extra layer. General weather apps weren’t built for those decisions, and they bury what you care about under what you don’t.</p>

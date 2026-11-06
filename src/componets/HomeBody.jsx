@@ -1,3 +1,4 @@
+import "./HomeBody.css";
 import hero from "../assets/snow-mount.jpg";
 
 function HomeBody() {

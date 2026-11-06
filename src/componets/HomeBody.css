@@ -1,0 +1,21 @@
+.homeBody {
+  width: 100%;
+  max-width: 64rem;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+.hero-img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 7;      
+  object-fit: cover;
+  border-radius: var(--radius);
+  margin-bottom: 2rem;
+}
+
+.homeBody p {
+  margin: 0;
+  font-size: 1.375rem;
+}

@@ -1,5 +1,6 @@
 import Button from "./Button.jsx";
 import SearchInput from "./SearchInput.jsx"
+import './navbar.css';
 
 function Navbar({onSearch}) {
     return (
